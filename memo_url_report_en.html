@@ -102,7 +102,7 @@ img { max-width: 100%; }
 </table></div>
 
 <h2>Result 2: All sender addresses by domain</h2>
-<p class="small">"List membership" refers not to this report's result numbers but to lists from other analyses, named by their project-index numbers: the "enclosed-period analysis: confirmed list" is the 2,153 addresses confirmed under the victim conditions in Project No.2 (the enclosed-period suspect analysis); its "relaxed list" is the 2,227 from the loosened incoming-payment condition; the "No.1 analysis: suspect list" is the 8,132 addresses of Project No.1; and the "signer-addition accounts (110,650)" are the accounts with a third-party signer addition confirmed in Project No.3.</p>
+<p class="small">See the appendix for what "list membership" means for each address.</p>
 <h3>paygcv.com（40,683 txs／sender addresses 2）</h3>
 <p>Representative transaction：<span class="addrf">bfbc1f4ba431d9c321af6afdc4ec4d0c878d82eb29d47bf62cac871bd5b8f37c</span><br>Sender：<span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span>／Memo：1Pi=$314,159 →PAYGCV.COM／11/06 17:19（JST）</p><ul>
 <li><span class="addrf">GCZIRAGEOLHWMHYB5MV5I2WCI2GJ5UHTOZKDLKHK2PM4C7VQMZB3536V</span> — 21,675 txs（List membership：none）</li>
@@ -178,7 +178,21 @@ img { max-width: 100%; }
 <li><span class="addrf">GBERCOOQNGWZHE6CTZYSYYNNWG3PUB45W7MMZOT7I3KXU3MC4C7USPRG</span> — 1 txs（List membership：none）</li>
 </ul>
 
-<h2>Result 3: Totals by sender address</h2>
+<h2>Notes</h2>
+<div class="note">
+<p>・The grand total of all hits is about 9,001 Pi, but most of it is a single large transfer carrying the memo "pi.com" (about 8,549 Pi) plus the gmail.com memos — false positives unrelated to advertising. The advertising dust itself totals only about 60 Pi, and the total must not be read as a damage figure.</p>
+<p>・The sender of the gmail.com and pi.com memos, <span class="addrf">GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW</span>, is reported to be an exchange (Gate) related address and is not phishing advertising.</p>
+<p>・This report records memo texts and senders; it does not show that a sender address is the side that carried out thefts.</p>
+</div>
+
+<h2>Appendix</h2>
+<h3>About the enclosed-period suspect analysis (Project No.2)</h3>
+<p>Pi opened to the general public on 20 February 2025. The period before that, when usage was restricted, is called the enclosed period. Project No.2 analysed every payment made in that period.</p>
+<p>A stolen wallet often shows the same pattern: almost everything is sent out immediately after locked Pi is released. The analysis therefore looked for payments where the sender (1) had never received any payment before, (2) sent within 3 minutes of a lockup release, and (3) was left with a balance under 2 Pi — and listed the recipients of payments meeting all three conditions as the "confirmed list" (2,153 addresses). The "relaxed list" (2,227 addresses) loosens condition (1) to treat incoming payments of 10 Pi or less as if they had not happened.</p>
+<p>The Project No.1 suspect list (8,132 addresses) was built by a different method from payments in 2023-2024. The 110,650 accounts of Project No.3 are accounts to which a third-party key was added alongside the owner key.</p>
+<p>The Project No.2 report itself is still being prepared; a link will be added here once it is published.</p>
+<h3>Totals by sender address</h3>
+
 <div class="tw"><table>
 <tr><th>Sender address</th><th>Count</th><th>Membership in existing lists</th></tr>
 <tr><td><span class="addr">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span></td><td class="num">73,998</td><td>enclosed-period analysis: confirmed list</td></tr>
@@ -196,13 +210,6 @@ img { max-width: 100%; }
 <tr><td><span class="addr">GBERCOOQNGWZHE6CTZYSYYNNWG3PUB45W7MMZOT7I3KXU3MC4C7USPRG</span></td><td class="num">1</td><td>none</td></tr>
 </table></div>
 <p>The top two addresses account for about 87% of the total. Note that the lure-spraying role and the side that actually drains funds are not necessarily the same. They are nevertheless considered part of the same group organizationally, so list membership is shown as evidence of contact points.</p>
-
-<h2>Notes</h2>
-<div class="note">
-<p>・The grand total of all hits is about 9,001 Pi, but most of it is a single large transfer carrying the memo "pi.com" (about 8,549 Pi) plus the gmail.com memos — false positives unrelated to advertising. The advertising dust itself totals only about 60 Pi, and the total must not be read as a damage figure.</p>
-<p>・The sender of the gmail.com and pi.com memos, <span class="addrf">GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW</span>, is reported to be an exchange (Gate) related address and is not phishing advertising.</p>
-<p>・This report records memo texts and senders; it does not show that a sender address is the side that carried out thefts.</p>
-</div>
 
 <p class="small">Data: summary.json / hits_all.csv (full extraction by the scan program) / Generated by Moko (Muse)</p>
 </main>

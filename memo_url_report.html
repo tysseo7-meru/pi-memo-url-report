@@ -102,7 +102,7 @@ img { max-width: 100%; }
 </table></div>
 
 <h2>結果2：ドメイン別の送信アドレス（全て）</h2>
-<p class="small">「リスト掲載」は、このレポートの結果番号ではなく、プロジェクト一覧の番号で呼んでいる別の解析のリストを指す。「エンクローズド期間解析の確定リスト」はプロジェクトNo.2（エンクローズド期間の疑惑アドレス解析）で被害者の条件を満たして確定した2,153件、その「緩和版」は入金の条件を緩めた2,227件、「No.1解析の疑惑リスト」はプロジェクトNo.1の8,132件、「鍵追加のあった110,650件」はプロジェクトNo.3で第三者の鍵追加が確認されたアカウントである。</p>
+<p class="small">各アドレスの「リスト掲載」の意味は、付録に説明があります。</p>
 <h3>paygcv.com（40,683件／送信アドレス 2）</h3>
 <p>代表トランザクション：<span class="addrf">bfbc1f4ba431d9c321af6afdc4ec4d0c878d82eb29d47bf62cac871bd5b8f37c</span><br>送信元：<span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span>／メモ：1Pi=$314,159 →PAYGCV.COM／11/06 17:19（日本時間）</p><ul>
 <li><span class="addrf">GCZIRAGEOLHWMHYB5MV5I2WCI2GJ5UHTOZKDLKHK2PM4C7VQMZB3536V</span> — 21,675件（リスト掲載：なし）</li>
@@ -178,7 +178,21 @@ img { max-width: 100%; }
 <li><span class="addrf">GBERCOOQNGWZHE6CTZYSYYNNWG3PUB45W7MMZOT7I3KXU3MC4C7USPRG</span> — 1件（リスト掲載：なし）</li>
 </ul>
 
-<h2>結果3：送信アドレス別の合計</h2>
+<h2>注意</h2>
+<div class="note">
+<p>・ヒット全体の金額合計は約9,001 Piだが、その大半は「pi.com」というメモの大型送金1件（約8,549 Pi）とgmail.comメモ分で、宣伝とは無関係の誤検出と考えられる。宣伝ダストそのものの合計は約60 Pi程度であり、この数字を被害額とは読めない。</p>
+<p>・gmail.comとpi.comの送信元 <span class="addrf">GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW</span> は取引所（Gate）関連とされるアドレスで、フィッシング宣伝ではない。</p>
+<p>・本レポートはメモの文面と送信元を記録したもので、送信アドレスが盗難の実行側であることを示すものではない。</p>
+</div>
+
+<h2>付録</h2>
+<h3>エンクローズド期間の疑惑アドレス解析（プロジェクトNo.2）について</h3>
+<p>Piは2025年2月20日に一般公開された。それより前は利用者が限られていた期間で、この期間を「エンクローズド期間」と呼ぶ。プロジェクトNo.2は、この期間の送金を全件調べた解析である。</p>
+<p>盗まれたウォレットは、ロックしていたPiが解けた直後にほぼ全額が送金される、という動きをすることが多い。そこで、送る側が (1) それまで入金を受けたことがなく、(2) ロックが解けてから3分以内に送金し、(3) 送金後の残高が2 Pi未満になる、という3つの条件を全て満たす送金を探し、その送金の受け取り先を「確定リスト」とした（2,153件）。条件 (1) を「10 Pi以下の入金は無かったことにする」と緩めた版が「緩和版」である（2,227件）。</p>
+<p>プロジェクトNo.1の疑惑リスト（8,132件）は、2023〜2024年の送金から別の方法で作られた疑惑アドレスの一覧である。プロジェクトNo.3の110,650件は、本人の鍵とは別に第三者の鍵が追加されたアカウントの一覧である。</p>
+<p>プロジェクトNo.2のレポート自体は作成中である。公開され次第、ここにリンクを追加する。</p>
+<h3>送信アドレス別の合計</h3>
+
 <div class="tw"><table>
 <tr><th>送信アドレス</th><th>件数</th><th>既存リストへの掲載</th></tr>
 <tr><td><span class="addr">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span></td><td class="num">73,998</td><td>エンクローズド期間解析の確定リスト</td></tr>
@@ -196,13 +210,6 @@ img { max-width: 100%; }
 <tr><td><span class="addr">GBERCOOQNGWZHE6CTZYSYYNNWG3PUB45W7MMZOT7I3KXU3MC4C7USPRG</span></td><td class="num">1</td><td>なし</td></tr>
 </table></div>
 <p>上位2アドレスで全体の約87%を占める。なお、メモをばらまく誘導役と、実際に資金を抜く側は必ずしも同じとは限らない。ただし組織としては同じグループの一角と考えられるため、掲載の有無は「接点の有無」の材料として示した。</p>
-
-<h2>注意</h2>
-<div class="note">
-<p>・ヒット全体の金額合計は約9,001 Piだが、その大半は「pi.com」というメモの大型送金1件（約8,549 Pi）とgmail.comメモ分で、宣伝とは無関係の誤検出と考えられる。宣伝ダストそのものの合計は約60 Pi程度であり、この数字を被害額とは読めない。</p>
-<p>・gmail.comとpi.comの送信元 <span class="addrf">GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW</span> は取引所（Gate）関連とされるアドレスで、フィッシング宣伝ではない。</p>
-<p>・本レポートはメモの文面と送信元を記録したもので、送信アドレスが盗難の実行側であることを示すものではない。</p>
-</div>
 
 <p class="small">データ： summary.json / hits_all.csv（走査プログラムによる全件抽出）／ 生成：モコ（Muse）</p>
 </main>
