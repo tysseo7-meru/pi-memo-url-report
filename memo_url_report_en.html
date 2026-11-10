@@ -48,6 +48,7 @@ img { max-width: 100%; }
 <p class="small"><a href="memo_url_report.html">日本語版</a></p>
 <h1>Memo-URL (Phishing Lure) Extraction Report</h1>
 <p>All Pi mainnet transactions whose memo contains a URL (domain) were extracted and tallied for 1 September to 10 November 2026. URLs written in memos are believed to be mostly phishing lures leading to fake exchange sites.</p>
+<p><b>Scanning all 7.34 million transactions from September to November 2026 found 142,091 URL-bearing memos. Most were GCV-themed advertising: 38 memo texts, 16 domains, and only 13 sender addresses, with the top two accounting for 87%.</b></p>
 
 <div class="meta">
 <p><b>Scan range：</b>2026-09-01 00:00 〜 2026-11-10 07:47（JST）、ledgers 28,483,281〜29,666,227</p>
@@ -101,34 +102,35 @@ img { max-width: 100%; }
 </table></div>
 
 <h2>Result 2: All sender addresses by domain</h2>
+<p class="small">"List membership" refers not to this report's result numbers but to lists from other analyses, named by their project-index numbers: the "enclosed-period analysis: confirmed list" is the 2,153 addresses confirmed under the victim conditions in Project No.2 (the enclosed-period suspect analysis); its "relaxed list" is the 2,227 from the loosened incoming-payment condition; the "No.1 analysis: suspect list" is the 8,132 addresses of Project No.1; and the "signer-addition accounts (110,650)" are the accounts with a third-party signer addition confirmed in Project No.3.</p>
 <h3>paygcv.com（40,683 txs／sender addresses 2）</h3>
 <p>Representative transaction：<span class="addrf">bfbc1f4ba431d9c321af6afdc4ec4d0c878d82eb29d47bf62cac871bd5b8f37c</span><br>Sender：<span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span>／Memo：1Pi=$314,159 →PAYGCV.COM／11/06 17:19（JST）</p><ul>
 <li><span class="addrf">GCZIRAGEOLHWMHYB5MV5I2WCI2GJ5UHTOZKDLKHK2PM4C7VQMZB3536V</span> — 21,675 txs（List membership：none）</li>
-<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 19,008 txs（List membership：No.2 confirmed list）</li>
+<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 19,008 txs（List membership：enclosed-period analysis: confirmed list）</li>
 </ul>
 <h3>gcvpay.com（28,661 txs／sender addresses 3）</h3>
 <p>Representative transaction：<span class="addrf">82105df44af3b7f9f0432394ac92186d3637b4d09769965d9be8e80a37cbcbee</span><br>Sender：<span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span>／Memo：Pi=314159$ http://gcvpay.com／11/04 07:17（JST）</p><ul>
-<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 12,548 txs（List membership：No.2 confirmed list）</li>
+<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 12,548 txs（List membership：enclosed-period analysis: confirmed list）</li>
 <li><span class="addrf">GCZIRAGEOLHWMHYB5MV5I2WCI2GJ5UHTOZKDLKHK2PM4C7VQMZB3536V</span> — 11,266 txs（List membership：none）</li>
 <li><span class="addrf">GCVWKQYVB2L6XYG32QNH4SQVQT5OIB6PVLSPASJKDLR6XHH4CVYRSIYI</span> — 4,847 txs（List membership：none）</li>
 </ul>
 <h3>gcvmarket.com（19,235 txs／sender addresses 1）</h3>
 <p>Representative transaction：<span class="addrf">0bfda12ce9df8c2cec5bc3db00fab3cfa5415792fe55bfe6a9726f8c34b2941b</span><br>Sender：<span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span>／Memo：314,159$=1Pi  gcvmarket.com／10/31 22:48（JST）</p><ul>
-<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 19,235 txs（List membership：No.2 confirmed list）</li>
+<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 19,235 txs（List membership：enclosed-period analysis: confirmed list）</li>
 </ul>
 <h3>gcvpi.net（16,469 txs／sender addresses 2）</h3>
 <p>Representative transaction：<span class="addrf">c3462fa89e45d3ed5e0cf9653d011b9e83cb83e2a4303a38c9692560594edc96</span><br>Sender：<span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span>／Memo：1Pi=314159$ http://gcvpi.net／11/04 22:31（JST）</p><ul>
 <li><span class="addrf">GCZIRAGEOLHWMHYB5MV5I2WCI2GJ5UHTOZKDLKHK2PM4C7VQMZB3536V</span> — 9,139 txs（List membership：none）</li>
-<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 7,330 txs（List membership：No.2 confirmed list）</li>
+<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 7,330 txs（List membership：enclosed-period analysis: confirmed list）</li>
 </ul>
 <h3>gcvactivation.com（13,432 txs／sender addresses 2）</h3>
 <p>Representative transaction：<span class="addrf">43040a660caf1b775ca48251b0d253a39040844038eb094f9d69947aab301ff8</span><br>Sender：<span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span>／Memo：Pi=314159$ gcvactivation.com／11/09 09:30（JST）</p><ul>
 <li><span class="addrf">GCZIRAGEOLHWMHYB5MV5I2WCI2GJ5UHTOZKDLKHK2PM4C7VQMZB3536V</span> — 7,099 txs（List membership：none）</li>
-<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 6,333 txs（List membership：No.2 confirmed list）</li>
+<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 6,333 txs（List membership：enclosed-period analysis: confirmed list）</li>
 </ul>
 <h3>gcvexchange.com（9,232 txs／sender addresses 1）</h3>
 <p>Representative transaction：<span class="addrf">2495f3933121b7e3bbfad02a9c72916a228f007865deb9acc702bd8d04f3eff2</span><br>Sender：<span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span>／Memo：314,159$=1Pi gcvexchange.com／11/02 18:23（JST）</p><ul>
-<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 9,232 txs（List membership：No.2 confirmed list）</li>
+<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 9,232 txs（List membership：enclosed-period analysis: confirmed list）</li>
 </ul>
 <h3>gcvpinet.com（7,190 txs／sender addresses 2）</h3>
 <p>Representative transaction：<span class="addrf">ce4b0880bfb6b5f43f110b49460593db7e577138197fc9ceaaf0f54a9c14e3a4</span><br>Sender：<span class="addrf">GCIJCGFCAT7DGIT4QHPWGKMS3TQEVLHSGZGUM3JUNMSNAYZ5RIM447HC</span>／Memo：1 Pi= $314  → gcvpinet.com／11/08 04:40（JST）</p><ul>
@@ -142,7 +144,7 @@ img { max-width: 100%; }
 <h3>pi2fa.com（1,782 txs／sender addresses 2）</h3>
 <p>Representative transaction：<span class="addrf">2e45f3ef24ce2f87ae320d51cab7c35a0954089bf0639a505f3d99e0f29fbef2</span><br>Sender：<span class="addrf">GCFJSCU3ZGGA74Y2XR5AB4PO5GJOZ3A753XXXE5PR4HYL54M2XCCJXLO</span>／Memo：Secure your Pi✅ pi2fa.com／11/06 04:14（JST）</p><ul>
 <li><span class="addrf">GCEOC2EBJ2EVZDYWTQKL5K656JIVCANGCZPME766FY7N2Q2LVDMYXYH7</span> — 1,762 txs（List membership：none）</li>
-<li><span class="addrf">GCFJSCU3ZGGA74Y2XR5AB4PO5GJOZ3A753XXXE5PR4HYL54M2XCCJXLO</span> — 20 txs（List membership：No.2 confirmed list）</li>
+<li><span class="addrf">GCFJSCU3ZGGA74Y2XR5AB4PO5GJOZ3A753XXXE5PR4HYL54M2XCCJXLO</span> — 20 txs（List membership：enclosed-period analysis: confirmed list）</li>
 </ul>
 <h3>tokenspinet.com（817 txs／sender addresses 1）</h3>
 <p>Representative transaction：<span class="addrf">9387e12f4c379f978449400ff8051ca78f452e69e51352f1a8a6355bb3ee09ec</span><br>Sender：<span class="addrf">GAOZV5WHDBLLH4GW3XZJPGN37VVLMQGVFBSYOIBJFONWFCA7Q4TCWQU5</span>／Memo：Pi Launchpad tokenspinet.com／10/30 13:01（JST）</p><ul>
@@ -150,7 +152,7 @@ img { max-width: 100%; }
 </ul>
 <h3>pinetworkgcv.com（326 txs／sender addresses 2）</h3>
 <p>Representative transaction：<span class="addrf">3d9a197f385d91de307df75fe7cacb7fbbdf9622b91693757ae07adb2d0924d5</span><br>Sender：<span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span>／Memo：1Pi=314159$ Pinetworkgcv.com／11/10 06:03（JST）</p><ul>
-<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 312 txs（List membership：No.2 confirmed list）</li>
+<li><span class="addrf">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span> — 312 txs（List membership：enclosed-period analysis: confirmed list）</li>
 <li><span class="addrf">GCZIRAGEOLHWMHYB5MV5I2WCI2GJ5UHTOZKDLKHK2PM4C7VQMZB3536V</span> — 14 txs（List membership：none）</li>
 </ul>
 <h3>walletminepi.com（163 txs／sender addresses 2）</h3>
@@ -160,16 +162,16 @@ img { max-width: 100%; }
 </ul>
 <h3>gmail.com（9 txs／sender addresses 2）</h3>
 <p>Representative transaction：<span class="addrf">ecb649a786081ceda2b966ed79504ade6ffefa04dd8fbf9e774c8466307c9433</span><br>Sender：<span class="addrf">GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW</span>／Memo：babaganabukar71@gmail.com／09/28 07:23（JST）</p><ul>
-<li><span class="addrf">GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW</span> — 8 txs（List membership：No.2 confirmed list）</li>
+<li><span class="addrf">GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW</span> — 8 txs（List membership：enclosed-period analysis: confirmed list）</li>
 <li><span class="addrf">GATOC5LCD5PVVG4IDCRRURWJMN3R7RLEUJMGAYMA5DGIJP2D46HAXCMA</span> — 1 txs（List membership：none）</li>
 </ul>
 <h3>vercel.app（4 txs／sender addresses 1）</h3>
 <p>Representative transaction：<span class="addrf">e3f36ce4a50f85c958f801c5b51eb687d7ae01b3a537b3399517bf45fd37ea0f</span><br>Sender：<span class="addrf">GCFJSCU3ZGGA74Y2XR5AB4PO5GJOZ3A753XXXE5PR4HYL54M2XCCJXLO</span>／Memo：pi2fa✅ pinet2fa.vercel.app／11/02 07:34（JST）</p><ul>
-<li><span class="addrf">GCFJSCU3ZGGA74Y2XR5AB4PO5GJOZ3A753XXXE5PR4HYL54M2XCCJXLO</span> — 4 txs（List membership：No.2 confirmed list）</li>
+<li><span class="addrf">GCFJSCU3ZGGA74Y2XR5AB4PO5GJOZ3A753XXXE5PR4HYL54M2XCCJXLO</span> — 4 txs（List membership：enclosed-period analysis: confirmed list）</li>
 </ul>
 <h3>pi.com（2 txs／sender addresses 1）</h3>
 <p>Representative transaction：<span class="addrf">9d99408a2aa0bc58dda8673f80a8fe5f7b9ab737277de267ba65e94c2bb78096</span><br>Sender：<span class="addrf">GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW</span>／Memo：pi.com／11/09 21:54（JST）</p><ul>
-<li><span class="addrf">GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW</span> — 2 txs（List membership：No.2 confirmed list）</li>
+<li><span class="addrf">GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW</span> — 2 txs（List membership：enclosed-period analysis: confirmed list）</li>
 </ul>
 <h3>bulbybots.site（1 txs／sender addresses 1）</h3>
 <p>Representative transaction：<span class="addrf">83427fd6cc5d7066ce3e7f621567b8993e34a70140efad72423a0926fa65dfd6</span><br>Sender：<span class="addrf">GBERCOOQNGWZHE6CTZYSYYNNWG3PUB45W7MMZOT7I3KXU3MC4C7USPRG</span>／Memo：bulbybots.site／11/08 17:36（JST）</p><ul>
@@ -179,7 +181,7 @@ img { max-width: 100%; }
 <h2>Result 3: Totals by sender address</h2>
 <div class="tw"><table>
 <tr><th>Sender address</th><th>Count</th><th>Membership in existing lists</th></tr>
-<tr><td><span class="addr">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span></td><td class="num">73,998</td><td>No.2 confirmed list</td></tr>
+<tr><td><span class="addr">GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C</span></td><td class="num">73,998</td><td>enclosed-period analysis: confirmed list</td></tr>
 <tr><td><span class="addr">GCZIRAGEOLHWMHYB5MV5I2WCI2GJ5UHTOZKDLKHK2PM4C7VQMZB3536V</span></td><td class="num">49,193</td><td>none</td></tr>
 <tr><td><span class="addr">GCIJCGFCAT7DGIT4QHPWGKMS3TQEVLHSGZGUM3JUNMSNAYZ5RIM447HC</span></td><td class="num">7,051</td><td>none</td></tr>
 <tr><td><span class="addr">GCEOC2EBJ2EVZDYWTQKL5K656JIVCANGCZPME766FY7N2Q2LVDMYXYH7</span></td><td class="num">5,847</td><td>none</td></tr>
@@ -188,8 +190,8 @@ img { max-width: 100%; }
 <tr><td><span class="addr">GA4GPBTLEXUCHDFPLWITVCG3OTA5R2RPY4PS5CCYWRGSHJVY4JPRYM3C</span></td><td class="num">139</td><td>none</td></tr>
 <tr><td><span class="addr">GDHYWO664YPG2RH32JBBO4RQ72DDGJAD3ZHSMUUWLSNBPZ36LPUN2FKX</span></td><td class="num">90</td><td>none</td></tr>
 <tr><td><span class="addr">GBH5GSYWG5WH3NQVUA27W6VCBWSWITX4P2CRC7OM4CW3EW5TXY4JKCMG</span></td><td class="num">73</td><td>none</td></tr>
-<tr><td><span class="addr">GCFJSCU3ZGGA74Y2XR5AB4PO5GJOZ3A753XXXE5PR4HYL54M2XCCJXLO</span></td><td class="num">24</td><td>No.2 confirmed list</td></tr>
-<tr><td><span class="addr">GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW</span></td><td class="num">10</td><td>No.2 confirmed list</td></tr>
+<tr><td><span class="addr">GCFJSCU3ZGGA74Y2XR5AB4PO5GJOZ3A753XXXE5PR4HYL54M2XCCJXLO</span></td><td class="num">24</td><td>enclosed-period analysis: confirmed list</td></tr>
+<tr><td><span class="addr">GBC6NRTTQLRCABQHIR5J4R4YDJWFWRAO4ZRQIM2SVI5GSIZ2HZ42RINW</span></td><td class="num">10</td><td>enclosed-period analysis: confirmed list</td></tr>
 <tr><td><span class="addr">GATOC5LCD5PVVG4IDCRRURWJMN3R7RLEUJMGAYMA5DGIJP2D46HAXCMA</span></td><td class="num">1</td><td>none</td></tr>
 <tr><td><span class="addr">GBERCOOQNGWZHE6CTZYSYYNNWG3PUB45W7MMZOT7I3KXU3MC4C7USPRG</span></td><td class="num">1</td><td>none</td></tr>
 </table></div>
