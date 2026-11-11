@@ -1,0 +1,387 @@
+{
+ "address": "GCZIRAGEOLHWMHYB5MV5I2WCI2GJ5UHTOZKDLKHK2PM4C7VQMZB3536V",
+ "records_total": 49339,
+ "op_types": {
+  "create_account": 1,
+  "payment": 49338
+ },
+ "payment_asset_types": {
+  "native": 49338
+ },
+ "first_activity": "2024-03-20T03:22:34Z",
+ "last_activity": "2026-11-10T22:49:49Z",
+ "payments_in": {
+  "count": 17,
+  "total_pi": 825.521718,
+  "distinct_senders": 8
+ },
+ "payments_out": {
+  "count": 49321,
+  "total_pi": 1190.98334,
+  "distinct_destinations": 42891
+ },
+ "dust_out_lt_0.01pi": {
+  "count": 49310,
+  "total_pi": 15.48334
+ },
+ "top_in_by_pi": [
+  {
+   "address": "GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C",
+   "pi": 570.5,
+   "count": 10
+  },
+  {
+   "address": "GBNA4YCBMRWZIEW2BUXJQOPO4JIQMK2WTYUKUM643EDPLY3FJWP6FWR5",
+   "pi": 241.0,
+   "count": 1
+  },
+  {
+   "address": "GCG3YX24EGVHQZAQJX5VQPQHSDJSVQLA3PCQZWKPHKD7AJNZICPTFO3P",
+   "pi": 12.0,
+   "count": 1
+  },
+  {
+   "address": "GA3KR2J567MKG34I53RUR4QFUWOOX4XZKRMT3IYQNNT5ZJC2KTKYRBO2",
+   "pi": 2.0,
+   "count": 1
+  },
+  {
+   "address": "GB2FO77HG2V5LKUYI4MSRO6BBEOPZYYJKD5NW5RZXIILLKH7TNOBZ2JD",
+   "pi": 0.02,
+   "count": 1
+  },
+  {
+   "address": "GDHYWO664YPG2RH32JBBO4RQ72DDGJAD3ZHSMUUWLSNBPZ36LPUN2FKX",
+   "pi": 0.001,
+   "count": 1
+  },
+  {
+   "address": "GCEOC2EBJ2EVZDYWTQKL5K656JIVCANGCZPME766FY7N2Q2LVDMYXYH7",
+   "pi": 0.000404,
+   "count": 1
+  },
+  {
+   "address": "GD5XSBTKI6HCUF4JFJIMJBZJTC5NKJFITM7IYJM2ZDJTYMU7GI5HL3KL",
+   "pi": 0.000314,
+   "count": 1
+  }
+ ],
+ "top_in_by_count": [
+  {
+   "address": "GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C",
+   "pi": 570.5,
+   "count": 10
+  },
+  {
+   "address": "GBNA4YCBMRWZIEW2BUXJQOPO4JIQMK2WTYUKUM643EDPLY3FJWP6FWR5",
+   "pi": 241.0,
+   "count": 1
+  },
+  {
+   "address": "GCG3YX24EGVHQZAQJX5VQPQHSDJSVQLA3PCQZWKPHKD7AJNZICPTFO3P",
+   "pi": 12.0,
+   "count": 1
+  },
+  {
+   "address": "GB2FO77HG2V5LKUYI4MSRO6BBEOPZYYJKD5NW5RZXIILLKH7TNOBZ2JD",
+   "pi": 0.02,
+   "count": 1
+  },
+  {
+   "address": "GCEOC2EBJ2EVZDYWTQKL5K656JIVCANGCZPME766FY7N2Q2LVDMYXYH7",
+   "pi": 0.000404,
+   "count": 1
+  },
+  {
+   "address": "GD5XSBTKI6HCUF4JFJIMJBZJTC5NKJFITM7IYJM2ZDJTYMU7GI5HL3KL",
+   "pi": 0.000314,
+   "count": 1
+  },
+  {
+   "address": "GDHYWO664YPG2RH32JBBO4RQ72DDGJAD3ZHSMUUWLSNBPZ36LPUN2FKX",
+   "pi": 0.001,
+   "count": 1
+  },
+  {
+   "address": "GA3KR2J567MKG34I53RUR4QFUWOOX4XZKRMT3IYQNNT5ZJC2KTKYRBO2",
+   "pi": 2.0,
+   "count": 1
+  }
+ ],
+ "top_out_by_pi_excl_dust": [
+  {
+   "address": "GBIGKX6PLCU3LTD745H6YVXQCDSI43J5FLDA4XFLP4SK2WXPTD5WIC7Q",
+   "pi": 480.0,
+   "count": 2
+  },
+  {
+   "address": "GALYJFJ5SVD45FBWN2GT4IW67SEZ3IBOFSBSPUFCWV427NBNLG3PXEQU",
+   "pi": 466.0,
+   "count": 1
+  },
+  {
+   "address": "GBM57FYAMJKN2NTQQZLCZ5L4GHOD62N3QE3YRYCBXCZY2RV6QQYCI3WN",
+   "pi": 226.0,
+   "count": 1
+  },
+  {
+   "address": "GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C",
+   "pi": 2.500314,
+   "count": 7
+  },
+  {
+   "address": "GBNA4YCBMRWZIEW2BUXJQOPO4JIQMK2WTYUKUM643EDPLY3FJWP6FWR5",
+   "pi": 1.0,
+   "count": 1
+  },
+  {
+   "address": "GC5RNDCRO6DDM7NZDEMW3RIN5K6AHN6GMWSZ5SAH2TRJLVGQMB2I3BNJ",
+   "pi": 0.179294,
+   "count": 571
+  }
+ ],
+ "big_payments_ge_100pi": [
+  {
+   "dir": "in",
+   "ts": "2024-04-04T16:19:51Z",
+   "counterparty": "GBNA4YCBMRWZIEW2BUXJQOPO4JIQMK2WTYUKUM643EDPLY3FJWP6FWR5",
+   "amount_pi": 241.0,
+   "tx": "daccb7f26caea9b79efaaba56e0cdd79cd153924e79bca855c4208d99cdbfde4"
+  },
+  {
+   "dir": "out",
+   "ts": "2024-04-04T17:08:02Z",
+   "counterparty": "GBIGKX6PLCU3LTD745H6YVXQCDSI43J5FLDA4XFLP4SK2WXPTD5WIC7Q",
+   "amount_pi": 232.0,
+   "tx": "9ca6f9fbe2b2935f59218fcc640f6b0a52d4b0f2eeaf19ce09ce82f39810c130"
+  },
+  {
+   "dir": "out",
+   "ts": "2024-04-04T17:34:56Z",
+   "counterparty": "GBIGKX6PLCU3LTD745H6YVXQCDSI43J5FLDA4XFLP4SK2WXPTD5WIC7Q",
+   "amount_pi": 248.0,
+   "tx": "825b0c7d18e00646503a20928ba68232f571e59a15f829f854697d6afc645ab4"
+  },
+  {
+   "dir": "out",
+   "ts": "2024-04-04T18:04:38Z",
+   "counterparty": "GBM57FYAMJKN2NTQQZLCZ5L4GHOD62N3QE3YRYCBXCZY2RV6QQYCI3WN",
+   "amount_pi": 226.0,
+   "tx": "8e95c86915a9d4989dd0217e3602b99571af5e8165ab56fbb92860462471f420"
+  },
+  {
+   "dir": "out",
+   "ts": "2025-03-20T13:08:12Z",
+   "counterparty": "GALYJFJ5SVD45FBWN2GT4IW67SEZ3IBOFSBSPUFCWV427NBNLG3PXEQU",
+   "amount_pi": 466.0,
+   "tx": "9bf50d4af179691156378716c8dab412b8d2d5fe9a3f48d36d65b41b3ab9fab3"
+  },
+  {
+   "dir": "in",
+   "ts": "2026-11-04T19:28:55Z",
+   "counterparty": "GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C",
+   "amount_pi": 100.0,
+   "tx": "cc9a7456539475a8d1c576574c68d495984bfccce10346d840d84689af58af6e"
+  },
+  {
+   "dir": "in",
+   "ts": "2026-11-06T00:24:45Z",
+   "counterparty": "GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C",
+   "amount_pi": 127.0,
+   "tx": "57259ee2994c39b713a29aad5785f4867a7163d79f83c58b8ea1b0cc0da6ad94"
+  },
+  {
+   "dir": "in",
+   "ts": "2026-11-07T14:10:50Z",
+   "counterparty": "GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C",
+   "amount_pi": 260.0,
+   "tx": "ba3b6861cd7b3dd741864f1cd48f2320a068de12d8a9ffb73d44fc9d665683b1"
+  }
+ ],
+ "create_account_ops": [
+  {
+   "ts": "2024-03-20T03:22:34Z",
+   "funder": "GABT7EMPGNCQSZM22DIYC4FNKHUVJTXITUF6Y5HNIWPU4GA7BHT4GC5G",
+   "account": "GCZIRAGEOLHWMHYB5MV5I2WCI2GJ5UHTOZKDLKHK2PM4C7VQMZB3536V",
+   "starting_balance": 1.0,
+   "tx": "c62cba023b00aa6ab2a529a468084430b66ef01e84cc76080c3fea25aab7d374"
+  }
+ ],
+ "claimable_created_by_addr": [],
+ "claimable_claimed_by_addr": [],
+ "payments_per_month": {
+  "2024-03": 1,
+  "2024-04": 5,
+  "2024-05": 11,
+  "2025-03": 1,
+  "2026-11": 49320
+ },
+ "all_in_senders": {
+  "GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C": {
+   "pi": 570.5,
+   "count": 10
+  },
+  "GBNA4YCBMRWZIEW2BUXJQOPO4JIQMK2WTYUKUM643EDPLY3FJWP6FWR5": {
+   "pi": 241.0,
+   "count": 1
+  },
+  "GCG3YX24EGVHQZAQJX5VQPQHSDJSVQLA3PCQZWKPHKD7AJNZICPTFO3P": {
+   "pi": 12.0,
+   "count": 1
+  },
+  "GB2FO77HG2V5LKUYI4MSRO6BBEOPZYYJKD5NW5RZXIILLKH7TNOBZ2JD": {
+   "pi": 0.02,
+   "count": 1
+  },
+  "GCEOC2EBJ2EVZDYWTQKL5K656JIVCANGCZPME766FY7N2Q2LVDMYXYH7": {
+   "pi": 0.000404,
+   "count": 1
+  },
+  "GD5XSBTKI6HCUF4JFJIMJBZJTC5NKJFITM7IYJM2ZDJTYMU7GI5HL3KL": {
+   "pi": 0.000314,
+   "count": 1
+  },
+  "GDHYWO664YPG2RH32JBBO4RQ72DDGJAD3ZHSMUUWLSNBPZ36LPUN2FKX": {
+   "pi": 0.001,
+   "count": 1
+  },
+  "GA3KR2J567MKG34I53RUR4QFUWOOX4XZKRMT3IYQNNT5ZJC2KTKYRBO2": {
+   "pi": 2.0,
+   "count": 1
+  }
+ },
+ "out_ge_0.01pi": {
+  "GBNA4YCBMRWZIEW2BUXJQOPO4JIQMK2WTYUKUM643EDPLY3FJWP6FWR5": {
+   "pi": 1.0,
+   "count": 1
+  },
+  "GBIGKX6PLCU3LTD745H6YVXQCDSI43J5FLDA4XFLP4SK2WXPTD5WIC7Q": {
+   "pi": 480.0,
+   "count": 2
+  },
+  "GBM57FYAMJKN2NTQQZLCZ5L4GHOD62N3QE3YRYCBXCZY2RV6QQYCI3WN": {
+   "pi": 226.0,
+   "count": 1
+  },
+  "GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C": {
+   "pi": 2.500314,
+   "count": 7
+  },
+  "GALYJFJ5SVD45FBWN2GT4IW67SEZ3IBOFSBSPUFCWV427NBNLG3PXEQU": {
+   "pi": 466.0,
+   "count": 1
+  },
+  "GC5RNDCRO6DDM7NZDEMW3RIN5K6AHN6GMWSZ5SAH2TRJLVGQMB2I3BNJ": {
+   "pi": 0.179294,
+   "count": 571
+  }
+ },
+ "account_snapshot": {
+  "balance_pi": 73.8087256,
+  "signers": [
+   "self only (weight 1)"
+  ],
+  "thresholds": {
+   "low": 0,
+   "med": 0,
+   "high": 0
+  },
+  "created_at": "2024-03-20T03:22:34Z",
+  "created_by_funder": "GABT7EMPGNCQSZM22DIYC4FNKHUVJTXITUF6Y5HNIWPU4GA7BHT4GC5G",
+  "create_starting_balance_pi": 1.0,
+  "create_tx": "c62cba023b00aa6ab2a529a468084430b66ef01e84cc76080c3fea25aab7d374"
+ },
+ "claimable_balances": {
+  "created_for_addr_at_creation": [
+   {
+    "amount_pi": 465.2398598,
+    "balance_id_prefix": "00000000929b234a",
+    "claimed_at": "2024-04-04T16:18:10Z",
+    "claim_tx": "8170513106c20629ba5a82056ed68707560a3084a1b281097496ed851bf31e0d"
+   },
+   {
+    "amount_pi": 466.2398598,
+    "balance_id_prefix": "00000000388175f1",
+    "claimed_at": "2025-03-20T13:07:39Z",
+    "claim_tx": "83a7465628e95f159120e4d406d2700e258bdb9550713194fb64ca6d7d679242"
+   }
+  ],
+  "total_claimed_pi": 931.4797196,
+  "note": "The /payments listing does not surface these claim ops; they were found via /effects and verified via /operations/<id>. Migration/lockup tranches created at account creation."
+ },
+ "balance_reconciliation": {
+  "credits_pi": {
+   "create_starting": 1.0,
+   "payments_in": 825.5217,
+   "claimable_claims": 931.4797196,
+   "total": 1758.0014196
+  },
+  "debits_pi": {
+   "payments_out": 1190.9833,
+   "tx_fees": 493.21
+  },
+  "fee_basis": "fee_charged verified = 100000 stroops = 0.01 Pi per tx; GCZIRAGE sourced 49321 payment txs (1 op each) = 493.21 Pi",
+  "walk_balance_pi": 73.8081,
+  "actual_balance_pi": 73.8087256,
+  "residual_pi": 0.0006,
+  "note": "The 2 claim txs' fees were not borne by this account (walk matches without them)."
+ },
+ "list_memberships": {
+  "GCZIRAGE itself": {
+   "no1_8132": false,
+   "no2_2153": false,
+   "relax10_2227": false,
+   "expansion_31858": false,
+   "signer_tracking_110650": false,
+   "candidate_victim_relaxed": false,
+   "candidate_victim_strict_v3": false,
+   "tentative_spam_enclosed": false
+  },
+  "GBNULNICZQ6XJKQKKQNJJPLKIFE4FHSJHMU2HS4ZPP77P6VVQV6UBW6C (#1 lure sender; top funder of GCZIRAGE 570.5 Pi / 10 payments)": {
+   "no1_8132": false,
+   "no2_2153": true,
+   "relax10_2227": true,
+   "expansion_31858": true,
+   "candidate_victim": true,
+   "tentative_spam_enclosed": true
+  },
+  "GBNA4YCBMRWZIEW2BUXJQOPO4JIQMK2WTYUKUM643EDPLY3FJWP6FWR5 (241 Pi in, Apr 2024)": {
+   "all_lists": false,
+   "candidate_victim": "relaxed-only (1 candidate send: 0.3 Pi to GBNULNIC, 2024-04-24); NOT in strict v3"
+  },
+  "GBIGKX6PLCU3LTD745H6YVXQCDSI43J5FLDA4XFLP4SK2WXPTD5WIC7Q (received 480 Pi from GCZIRAGE, Apr 2024)": {
+   "no1_8132": false,
+   "no2_2153": true,
+   "relax10_2227": true,
+   "expansion_31858": true,
+   "candidate_victim": true,
+   "tentative_spam_enclosed": true
+  },
+  "GBM57FYAMJKN2NTQQZLCZ5L4GHOD62N3QE3YRYCBXCZY2RV6QQYCI3WN (received 226 Pi, Apr 2024)": {
+   "all_lists": false
+  },
+  "GABT7EMPGNCQSZM22DIYC4FNKHUVJTXITUF6Y5HNIWPU4GA7BHT4GC5G (account creator/funder)": {
+   "expansion_31858": true,
+   "confirmed_lists": false
+  },
+  "GALYJFJ5SVD45FBWN2GT4IW67SEZ3IBOFSBSPUFCWV427NBNLG3PXEQU (received 466 Pi, 2025-03-20)": "OKX exchange wallet per third-party reports (No.1/No.2 exit scans)"
+ },
+ "enclosed_period_db": {
+  "incoming": {
+   "count": 7,
+   "total_pi": 244.5,
+   "detail": "6x from GBNULNIC (3.5 Pi total, Mar-May 2024) + 241 Pi from GBNA4YCB (2024-04-04)"
+  },
+  "outgoing": {
+   "count": 10,
+   "total_pi": 709.5,
+   "detail": "232+248 Pi to GBIGKX (2024-04-04), 226 Pi to GBM57F (2024-04-04), 1 Pi to GBNA4YCB (2024-04-02), 6x small to GBNULNIC (2.5 Pi, 2024-05-03)"
+  },
+  "candidate_sends_to_gczirage": 0
+ },
+ "signer_facts": {
+  "census_events_for_account": "exactly 1 signer_created event ever (through 2026-11-01): its own self registration 2024-03-20T03:22:34Z",
+  "added_to_other_accounts": "0 (its key appears as public_key only in its own self event)",
+  "third_party_additions_to_it": "none in census; live account still single-signer, thresholds 0/0/0"
+ }
+}
